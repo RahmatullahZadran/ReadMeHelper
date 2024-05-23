@@ -1,21 +1,15 @@
-import { useState } from 'react'
-
-import './App.css'
-
-import './index.css'
-
-import Navbar from '../src/components/navbat.jsx'
+import React from 'react';
+import Navbar from './components/navbat';
+import EditorPage from './components/editorPage';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <div>
-        <Navbar />
-      </div>
-     
-    </>
-  )
+    <div>
+      <Navbar />
+      <EditorPage />
+    </div>
+  );
 }
 
-export default App
+export default App;
