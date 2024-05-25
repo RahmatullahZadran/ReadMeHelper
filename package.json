@@ -13,6 +13,7 @@
     "autoprefixer": "^10.4.19",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",
     "react-syntax-highlighter": "^15.5.0",
